@@ -9,7 +9,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 // Set arbitrary delimiters where you want to make fill-in-the-blank question
 
 <pre>
-   <p>Mt.Fuji is in ^Japan^.</p>
+   &lt;pre&gt;Mt.Fuji is in ^Japan^.&lt;/pre&gt;
 </pre>
 
 // Execute after loading jQuery and fillInTheBlank.js
