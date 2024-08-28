@@ -26,8 +26,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 //options
 <pre>
 <script>
-$("pre").each(function() {
-  $(this).fillInTheBlank({
+$("pre").fillInTheBlank({
     delimiter: "^", // Delimiter to use -- default "^"
     event: "change", // Event that triggers the check　--default "change"
     correct: function() {
@@ -36,7 +35,6 @@ $("pre").each(function() {
     wrong: function() {
       alert("Sorry, that's incorrect."); // When event is occured and answer is wrong..
     }
-  });
 });
 </script>
 </pre>
@@ -55,3 +53,14 @@ $("pre").each(function() {
   </tr>
     <td>wrong</td><td>function</td><td>null</td>
 </table>
+
+//Apply to multiple elements
+<pre>
+<script>
+$("pre").each(function(){
+    $(this).fillInTheBlank({
+        //options
+    });
+});
+</script>
+</pre>
