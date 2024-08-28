@@ -14,6 +14,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 // Execute after loading jQuery and fillInTheBlank.js
 
+//initialiize
+<pre>
+<script>
+  $("pre").fillInTheBlank();
+</script>
+</pre>
+
+//options
 <pre>
 <script>
 $("pre").each(function() {
@@ -24,9 +32,24 @@ $("pre").each(function() {
       alert("Correct!"); // When event is occured and answer is collect..
     },
     wrong: function() {
-      alert("Sorry, that's incorrect."); 
+      alert("Sorry, that's incorrect."); // When event is occured and answer is wrong..
     }
   });
 });
 </script>
 </pre>
+<table>
+  <tr>
+    <th>OPTION NAME</th><th>TYPE</th><th>DEFAULT VALUE</th>
+  </tr>
+  <tr>
+    <td>delimiter</td><td>string</td><td>"^"</td>
+  </tr>
+  <tr>
+    <td>event</td><td>string</td><td>"change"</td>
+  </tr>
+  <tr>
+    <td>correct</td><td>function</td><td>null</td>
+  </tr>
+    <td>wrong</td><td>function</td><td>null</td>
+</table>
