@@ -19,14 +19,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <script src="path/to/jquery.js"></script>
 <script src="path/to/fillInTheBlank.js"></script>
 </pre>
-//initialize
+// initialize
 <pre>
 <script>
   $("pre").fillInTheBlank();
 </script>
 </pre>
 
-//options
+// options
 <pre>
 <script>
 $("pre").fillInTheBlank({
@@ -57,7 +57,7 @@ $("pre").fillInTheBlank({
     <td>wrong</td><td>function</td><td>null</td>
 </table>
 
-//Apply to multiple elements
+// Apply to multiple elements
 <pre>
 <script>
 $("pre").each(function(){
