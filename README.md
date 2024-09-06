@@ -14,8 +14,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 &lt;/pre&gt;
 </pre>
 
-// Execute after loading jQuery and fillInTheBlank.js
-
+// After loading jQuery, execute fillInTheBlank.js
+<pre>
+<script src="path/to/jquery.js"></script>
+<script src="path/to/fillInTheBlank.js"></script>
+</pre>
 //initialize
 <pre>
 <script>
